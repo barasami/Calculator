@@ -8,9 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    
-    
+    height: 100vh;  
 }
 .page{
     margin-top: 10em;
@@ -20,5 +18,18 @@
 .screen{
     padding: .7em;
     border:2px solid gray ;
-    
+
+}
+.number{
+    margin-top: .5em;
+}
+.monitor{
+    margin-bottom: 1em;
+}
+.keyboad{
+    display: inline-block;
+}
+.btn{
+    padding: .4em;
+    margin: .1em;
 }
