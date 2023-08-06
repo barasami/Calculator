@@ -16,20 +16,41 @@
     position: fixed; 
 }
 .screen{
-    padding: .7em;
-    border:2px solid gray ;
-
+    padding: .2em;
+    border: none;
+}
+.screen:active{
+    border: none;
 }
 .number{
     margin-top: .5em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 50px 50px;
+    grid-gap:9px;
+}
+.allbtns{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px 50px;
+    
+
 }
 .monitor{
     margin-bottom: 1em;
+    padding: .5em;
+    border:2px solid gray ;
 }
 .keyboad{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn{
     padding: .4em;
     margin: .1em;
+    color: white;
+    background-color: rgb(165, 163, 163);
+    border:none ;
+    border-radius: 3px;
 }
