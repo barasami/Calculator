@@ -9,43 +9,43 @@ mybtns.forEach((button)=>{
     button.addEventListener('click',(e)=>{
         let substr=e.currentTarget.classList
         if(substr.contains('0')){
-            monitor.textContent=myvalue
+            monitor.textContent=0
         }
         else if(substr.contains('1')){
-            monitor.textContent=myvalue + '1'
-            console.log(1);
+            let one =monitor.textContent
+            console.log(one);
         }
         else if(substr.contains('2')){
-            monitor.textContent=myvalue +'2'
-            console.log(2);
+            let two=monitor.textContent
+            console.log(two);
         }
         else if(substr.contains('3')){
-            monitor.textContent=myvalue + '3'
-            console.log(3);
+            let three=monitor.textContent
+            console.log(three);
         }
         else if(substr.contains('4')){
-            monitor.textContent=myvalue + '4'
-            console.log(4);
+            let four=monitor.textContent
+            console.log(four);
         }
         else if(substr.contains('5')){
-            monitor.textContent='5'
-            console.log(5);
+            let five=monitor.textContent
+            console.log(five);
         }
         else if(substr.contains('6')){
-            monitor.textContent='6'
-            console.log(6);
+            let six=monitor.textContent
+            console.log(six);
         }
         else if(substr.contains('7')){
-            monitor.textContent='7'
-            console.log(7);
+            let seven =monitor.textContent
+            console.log(seven);
         }
         else if(substr.contains('8')){
-            monitor.textContent='8'
-            console.log(8);
+           let eight= monitor.textContent
+            console.log(eight);
         }
         else if(substr.contains('9')){
-            monitor.textContent='9'
-            console.log(9);
+            let nine=monitor.textContent
+            console.log(nine);
         }
         else{
             console.log('err');
