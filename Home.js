@@ -12,40 +12,38 @@ mybtns.forEach((button)=>{
             monitor.textContent=0
         }
         else if(substr.contains('1')){
-            let one =monitor.textContent
-            console.log(one);
+            monitor.textContent=1
         }
         else if(substr.contains('2')){
-            let two=monitor.textContent
-            console.log(two);
+            monitor.textContent=2
         }
         else if(substr.contains('3')){
-            let three=monitor.textContent
-            console.log(three);
+            monitor.textContent=3
+            
         }
         else if(substr.contains('4')){
-            let four=monitor.textContent
-            console.log(four);
+            monitor.textContent=4
+        
         }
         else if(substr.contains('5')){
-            let five=monitor.textContent
-            console.log(five);
+            monitor.textContent=5
+        
         }
         else if(substr.contains('6')){
-            let six=monitor.textContent
-            console.log(six);
+            monitor.textContent=6
+    
         }
         else if(substr.contains('7')){
-            let seven =monitor.textContent
-            console.log(seven);
+            monitor.textContent=7
+            
         }
         else if(substr.contains('8')){
-           let eight= monitor.textContent
-            console.log(eight);
+           monitor.textContent=8
+            
         }
         else if(substr.contains('9')){
-            let nine=monitor.textContent
-            console.log(nine);
+            monitor.textContent=9
+        
         }
         else{
             console.log('err');
