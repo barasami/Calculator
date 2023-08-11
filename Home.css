@@ -54,3 +54,12 @@
     border:none ;
     border-radius: 3px;
 }
+.btns{
+    padding: .4em;
+    margin: .1em;
+    color: white;
+    background-color: rgb(165, 163, 163);
+    border:none ;
+    border-radius: 3px;
+
+}
