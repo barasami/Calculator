@@ -9,33 +9,34 @@
 </head>
 <body>
     <div class="fullpage">
-        <div class="page">
-            <div class="monitor">
-                <!-- <input type="text" class="monitor"> -->
+        <form class="page">
+            <div class="">
+                <input type="text" name="monitor">
                 
             </div>
             <div class="keyboad">
                 <div class="number">
-                    <div class="allbtn"><button class="btn 0">0</button></div>
-                    <div class="allbtn"><button class="btn 1">1</button></div>
-                    <div class="allbtn"><button class="btn 2">2</button></div>
-                    <div class="allbtn"><button class="btn 3">3</button></div>
-                    <div class="allbtn"><button class="btn 4">4</button></div>
-                    <div class="allbtn"><button class="btn 5">5</button></div>
-                    <div class="allbtn"><button class="btn 6">6</button></div>
-                    <div class="allbtn"><button class="btn 7">7</button></div>
-                    <div class="allbtn"><button class="btn 8">8</button></div>
-                    <div class="allbtn"><button class="btn 9">9</button></div>
+                    <input type="button" value="0" onclick="monitor.value +='0' ">
+                    <input type="button" value="1" onclick="monitor.value +='1' ">
+                    <input type="button" value="2" onclick="monitor.value +='2' ">
+                    <input type="button" value="3" onclick="monitor.value +='3' ">
+                    <input type="button" value="4" onclick="monitor.value +='4' ">
+                    <input type="button" value="5" onclick="monitor.value +='5' ">
+                    <input type="button" value="6" onclick="monitor.value +='6' ">
+                    <input type="button" value="7" onclick="monitor.value +='7' ">
+                    <input type="button" value="8" onclick="monitor.value +='8' ">
+                    <input type="button" value="9" onclick="monitor.value +='9' ">
                 </div>
                 <div class="allbtns">
-                    <div><button class="btns divide">%</button></div> 
-                    <div><button class="btns multiply">*</button></div>
-                    <div><button class="btns minus">-</button></div>
-                    <div><button class="btns plus">+</button></div>
-                    <div><button class="btns equal">=</button></div>
+                    <input type="button" value="/" onclick="monitor.value +='/' ">
+                    <input type="button" value="=" onclick="monitor.value +='=' ">
+                    <input type="button" value="+" onclick="monitor.value +='+' ">
+                    <input type="button" value="*" onclick="monitor.value +='*' ">
+                    <input type="button" value="-" onclick="monitor.value +='-' ">
+                    
                 </div>
             </div>
-        </div>
+        </form>
     </div>
     <script src="Home.js"></script>
 </body>
