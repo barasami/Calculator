@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;  
+    
 }
 .page{
     margin-top: 10em;
@@ -36,10 +37,12 @@
     
 
 }
+.allmonitor{
+    margin-bottom: .6em;
+}
 .monitor{
-    margin-bottom: 1em;
-    padding: .7em;
-    border:2px solid gray ;
+   /* border: none; */
+   padding: .3em;
 }
 .keyboad{
     display: flex;

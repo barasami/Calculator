@@ -7,16 +7,16 @@
     <script src="https://kit.fontawesome.com/5c74011003.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Home.css">
 </head>
-<body>
+<body class="coolbody">
     <div class="fullpage">
         <form class="page">
-            <div class="">
-                <input type="text" name="monitor">
-                
-            </div>
-            <div class="keyboad">
+            <div >
+                <div class="allmonitor">
+                    <input type="text" name="monitor" class="monitor">
+                </div>
                 <div class="number">
                     <input type="button" value="0" onclick="monitor.value +='0' ">
+                    <input type="button" value="00" onclick="monitor.value +='00' ">
                     <input type="button" value="1" onclick="monitor.value +='1' ">
                     <input type="button" value="2" onclick="monitor.value +='2' ">
                     <input type="button" value="3" onclick="monitor.value +='3' ">
@@ -26,17 +26,15 @@
                     <input type="button" value="7" onclick="monitor.value +='7' ">
                     <input type="button" value="8" onclick="monitor.value +='8' ">
                     <input type="button" value="9" onclick="monitor.value +='9' ">
-                </div>
-                <div class="allbtns">
+    
                     <input type="button" value="DE" onclick="monitor.value =' ' ">
                     <input type="button" value="." onclick="monitor.value +='.' ">
                     <input type="button" value="/" onclick="monitor.value +='/' ">
-                    <input type="button" value="=" onclick="monitor.value =eval(monitor.value) ">
+                    <input type="button" class="equals" value="=" onclick="monitor.value =eval(monitor.value) ">
                     <input type="button" value="+" onclick="monitor.value +='+' ">
                     <input type="button" value="*" onclick="monitor.value +='*' ">
                     <input type="button" value="-" onclick="monitor.value +='-' ">
                     <input type="button" value="AC" onclick="monitor.value =monitor.value.toString().slice(0,-1) ">
-                    
                 </div>
             </div>
         </form>
