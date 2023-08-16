@@ -10,13 +10,12 @@
     height: 100vh;  
     
 }
-.allpages{
-   
-}
 .page{
     margin-top: 10em;
     margin-bottom: 10em;
     position: fixed; 
+    background-color: gray;
+    padding: .9em;
 }
 
 .screen:active{
@@ -63,5 +62,15 @@
     background-color: rgb(165, 163, 163);
     border:none ;
     border-radius: 3px;
+
+}
+.equals{
+    padding: .4em;
+    margin: .1em;
+    color: white;
+    background-color: rgb(165, 163, 163);
+    border:none ;
+    border-radius: 3px;
+    padding-left: .6em;
 
 }
